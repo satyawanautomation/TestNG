@@ -1,0 +1,14 @@
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="Sanity" />
+		</run>
+	</groups>
+	<test name="Test">
+		<classes>
+			<class name="Demo1.Test1" />
+			<class name="Demo2.Test2" />
+			<class name="Demo1.groups" />
+		</classes>
+	</test>
+</suite>
